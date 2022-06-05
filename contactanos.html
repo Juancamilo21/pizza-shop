@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizzaiolo! - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+  </head>
+  <body>
+
+    <!-- Encabezado -->
+    <header class="container-fluid bg-danger d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Domicilios: (+57) 3022294543</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <span class="text-danger fs-5 fw-bold">Pizzaiolo!</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contacto</a>
+              </li>
+            </ul>
+      </nav>
+
+      <!-- Formulario de contacto-->
+      <section class="d-flex justify-content-center p-3 border-top border-3">
+        <div class="card col-sm-6 p-3 border-danger">
+          <div class="mb-3">
+            <h4 class="text-danger fw-bold">Formulario de Contacto</h4>
+          </div>
+          <div class="mb-3">
+            <form action="">
+              <div class="mb-3">
+                <label for="nombres" class="text-dark fw-bold">Nombres</label>
+                <input type="text" class="form-control" name="nombres" id="nombres" placeholder="ej: Juan Camilo">
+              </div>
+
+              <div class="mb-3">
+                <label for="apellidos" class="text-dark fw-bold">Apellidos</label>
+                <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="ej: Arrieta Bernal">
+              </div>
+
+              <div class="mb-3">
+                <label for="correo" class="text-dark fw-bold">Correo eletrónico</label>
+                <input type="email" class="form-control" name="correo" id="correo" placeholder="ej: name@example.com">
+              </div>
+
+              <div class="mb-3">
+                <label for="sexo" class="text-dark fw-bold">Sexo</label>
+                <input type="radio" name="sexo" id="masculino" value="masculino">Masculino
+                <input type="radio" name="sexo" id="femenino" value="femenino">Femenino
+              </div>
+
+              <div class="mb-3">
+                <label for="edad" class="text-dark fw-bold">Edad</label>
+                <input type="text" class="form-control" name="edad" id="edad" placeholder="ej: 20">
+              </div>
+              
+              <div class="mb-3">
+                <label for="telefono" class="text-dark fw-bold">Telefono</label>
+                <input type="text" class="form-control" name="telefono" id="telefono" placeholder="ej: 3022294543">
+              </div>
+
+              <div class="mb-3">
+                <label for="color-favorito" class="text-dark fw-bold">Color Favorito</label>
+                <input type="text" class="form-control" name="color-favorito" id="color-favorito" placeholder="ej: Azul">
+              </div>
+
+              <div class="mb-3">
+                <label for="hobbies" class="text-dark fw-bold">Hobbies Favoritos</label>
+                <textarea name="hobbies" id="hobbies" placeholder="ej: Jugar carta, etc." class="w-100"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="fecha-cumpleaños" class="text-dark fw-bold">Fecha de Cumpleaños</label>
+                <input type="date" name="fecha-cumpleaños" id="fecha-cumpleaños">
+              </div>
+
+              <div class="mb-3">
+                <label for="hora-preferida" class="text-dark fw-bold">Hora de Preferencia para su pedido</label>
+                <input type="time" name="hora-preferida" id="hora-preferida">
+              </div>
+
+              <div class="mb-6">
+                <button class="btn btn-danger fw-bold w-100">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+        <!-- Pie de página -->
+        <footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-light p-3 border-top border-3">
+          <p class="fs-5 px-3 pt-3 text-danger"><span class=" fs-4 fw-bold">Pizzaiolo!</span> &copy; Todos Los Derechos Reservados 2022</p>
+          <div id="iconos">
+            <a href="https://www.facebook.com/pizzaiolo.co" class="bi bi-facebook" target="_blank"></a>
+            <a href="https://mobile.twitter.com/pizza_iolo" class="bi bi-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/pizzaiolo.co/?hl=es" class="bi bi-instagram" target="_blank"></a>
+          </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

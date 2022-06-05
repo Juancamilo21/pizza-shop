@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizzaiolo! - Pizzeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+  </head>
+  <body>
+
+    <!-- Encabezado -->
+    <header class="container-fluid bg-danger d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Domicilios: (+57) 3022294543</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <span class="text-danger fs-5 fw-bold">Pizzaiolo!</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contacto</a>
+              </li>
+            </ul>
+      </nav>
+
+      <!-- Carrusel de imagenes -->
+      <section class="d-flex justify-content-center p-3 border-top border-3">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+  
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="./imagenes/pizza1.jpg" class="d-block w-100" alt="deslizar1">
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagenes/pizza2.jpg" class="d-block w-100" alt="deslizar2">
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./imagenes/pizza3.jpg" class="d-block w-100" alt="deslizar3">
+            </div>
+  
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Información de la pizzeria-->
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Una pizzeria única para que disfrutes en <span class="text-danger">Familia y con Amigos</span></h1>
+        <p class="p-3 fs-4"><span class="text-danger fs-3 fw-bold">Pizzaiolo!</span> es una empresa de servicio de comida rápida dedicada a la elaboración y venta de pizzas con ingredientes de primera calidad a un precio razonable y competitivo. Contamos con personal calificado para brindar un excelente servicio</p>
+      </section>
+
+      <!-- Ubicación de la pizzeria -->
+        <div class="p-3 border-top border-3">
+          <h2 class="fs-2 fw-bold text-dark">Ubicación</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4221755373114!2d-75.56944228573423!3d6.207913728475048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44294af1a1a12d%3A0x3ef5fd34205c2b5!2spizzaiolo!5e0!3m2!1ses!2sco!4v1654426722775!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-light p-3 border-top border-3">
+          <p class="fs-5 px-3 pt-3 text-danger"><span class=" fs-4 fw-bold">Pizzaiolo!</span> &copy; Todos Los Derechos Reservados 2022</p>
+          <div id="iconos">
+            <a href="https://www.facebook.com/pizzaiolo.co" class="bi bi-facebook" target="_blank"></a>
+            <a href="https://mobile.twitter.com/pizza_iolo" class="bi bi-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/pizzaiolo.co/?hl=es" class="bi bi-instagram" target="_blank"></a>
+          </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
